@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>زاد المسلم</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap"><style>
+:root{--bg:#f6efe0;--card:#fffaf0;--g:#0f3d33;--g2:#1c5c4b;--gold:#b8893a;--tx:#1d2b26;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b1f1a;--card:#12332b;--tx:#f1e8d2;--gold:#d9ae5e}}
+:root[data-theme=dark]{--bg:#0b1f1a;--card:#12332b;--tx:#f1e8d2;--gold:#d9ae5e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:Cairo,Tahoma,sans-serif}
+header{background:linear-gradient(135deg,#0f3d33,#1c5c4b);color:#f6e7c1;text-align:center;padding:22px 12px}
+header h1{margin:0;font:700 38px Amiri,serif}header p{margin:4px 0 0;opacity:.85}
+nav{display:flex;gap:6px;overflow-x:auto;padding:10px;background:var(--card);position:sticky;top:0;z-index:5}
+nav button{flex:none;border:1px solid var(--gold);background:none;color:var(--tx);padding:8px 14px;border-radius:20px;font:inherit;cursor:pointer}
+nav button.on{background:var(--g);color:#f6e7c1;border-color:var(--g)}
+main{max-width:760px;margin:auto;padding:14px}section{display:none}section.on{display:block}
+.c{background:var(--card);border:1px solid #b8893a55;border-radius:14px;padding:14px;margin:10px 0;line-height:2}
+.ar{font:400 21px/2.1 Amiri,serif}.src{color:var(--gold);font-size:14px}
+h2{color:var(--gold);font-family:Amiri,serif}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px}
+.grid div{background:var(--card);border:1px solid var(--gold);border-radius:12px;padding:10px 4px;text-align:center;font:700 19px Amiri,serif}
+.ctr{background:#111;border:10px solid #7fc880;border-radius:40px;width:230px;margin:14px auto;padding:20px;text-align:center}
+.lcd{background:#9a9a9a;color:#eee;font:700 46px monospace;letter-spacing:4px;border-radius:6px;padding:6px;direction:ltr}
+.tap{width:120px;height:120px;border-radius:50%;border:0;background:#fff;color:#0f3d33;font:700 28px Cairo;margin-top:18px;box-shadow:0 4px 12px #0008}
+.tap:active{transform:scale(.94)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.chips button,.btn{border:0;background:var(--g);color:#f6e7c1;padding:9px 14px;border-radius:20px;font:inherit;cursor:pointer}
+input,select{font:inherit;padding:9px;border-radius:10px;border:1px solid var(--gold);background:var(--card);color:var(--tx);max-width:100%}
+.pt{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}.pt div{background:var(--g);color:#f6e7c1;border-radius:12px;padding:10px}.pt b{display:block;font-size:20px;direction:ltr}
+table{width:100%;border-collapse:collapse}td{padding:9px;border-bottom:1px solid #b8893a44}
+body{background-image:radial-gradient(color-mix(in srgb,var(--gold) 28%,transparent) 1px,transparent 1.5px);background-size:26px 26px}
+.hero{position:relative;overflow:hidden;min-height:340px;padding:40px 12px 120px;background:linear-gradient(180deg,#0b2a24 0%,#1c5c4b 50%,#d49a58 100%)}
+.hero h1{position:relative;font:700 66px Amiri,serif;background:linear-gradient(#fff3cf,#d9ae5e);-webkit-background-clip:text;background-clip:text;color:transparent;animation:glow 3s infinite alternate}
+.hero p{position:relative;font-size:18px}
+.ayah{position:relative;display:inline-block;margin-top:10px;padding:8px 22px;border:1px solid #d9ae5e;border-radius:30px;background:#0b2a2499;font:400 20px Amiri,serif;color:#f6e7c1}
+.stars span{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;animation:tw 2.5s infinite alternate}
+.moon{position:absolute;top:16px;left:6%;width:72px;animation:fl 6s ease-in-out infinite alternate;filter:drop-shadow(0 0 10px #ffd987)}
+.lan{position:absolute;top:0;width:44px;transform-origin:50% 0;animation:sw 4s ease-in-out infinite alternate}
+.l1{right:5%}.l2{right:15%;width:32px;animation-delay:-2s}.l3{left:22%;width:36px;animation-delay:-1s}
+.lan ellipse{animation:gl 2s infinite alternate}
+.mosque{position:absolute;bottom:-1px;left:0;width:100%;height:105px;fill:#0b2a24}
+@keyframes tw{from{opacity:.1}to{opacity:1}}@keyframes sw{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}@keyframes gl{from{opacity:.5}to{opacity:1}}
+@keyframes glow{from{filter:drop-shadow(0 0 4px #ffd98755)}to{filter:drop-shadow(0 0 18px #ffd987)}}@keyframes fl{to{transform:translateY(8px) rotate(5deg)}}@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes pl{0%{box-shadow:0 0 0 0 #7fc88099}100%{box-shadow:0 0 0 24px #7fc88000}}
+section.on{animation:up .5s}
+.c{border-radius:18px;box-shadow:0 0 0 3px var(--card),0 0 0 4px #b8893a88}
+nav button{transition:.2s}nav button:hover{transform:translateY(-2px)}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:12px;margin:14px 0}
+.fg button{border:2px solid var(--gold);background:var(--card);color:var(--tx);border-radius:60px 60px 14px 14px;padding:18px 6px 12px;font:700 15px Cairo,sans-serif;cursor:pointer;transition:.25s}
+.fg button:hover{transform:translateY(-6px);box-shadow:0 8px 18px #b8893a55}
+.fg i{display:block;font-style:normal;font-size:34px;animation:fl 3s infinite alternate}
+.arch{width:290px;max-width:100%;margin:14px auto;padding:20px 14px 20px;border:4px solid var(--gold);border-radius:145px 145px 22px 22px;text-align:center;background:linear-gradient(#fffaf0,#e8dcc0);box-shadow:0 0 28px #d9ae5e66}
+.ak{font:700 46px Amiri,serif;color:#0f3d33;margin-top:14px}.arch .ctr{margin:6px auto}
+.tap{animation:pl 2s infinite}
+.grid div{transition:.25s}.grid div:hover{transform:translateY(-4px) scale(1.05);background:var(--g);color:#f6e7c1}
+.tz{position:relative;background:linear-gradient(#0f3d33,#0b2a24);border-radius:22px;padding:34px 8px 18px;margin:10px 0;overflow:hidden}
+.tz .lan{top:0}.t1{left:6%}.t2{right:6%;width:34px}
+.arch2{position:relative;width:300px;max-width:100%;height:690px;margin:0 auto}
+.ar-bg{position:absolute;inset:0;width:100%;height:100%}
+.ak2{position:relative;text-align:center;padding-top:96px;height:170px;font:700 46px Amiri,serif;color:#0f3d33;line-height:1.2}
+.tb{position:relative;display:flex;gap:10px;justify-content:center;margin-top:14px;direction:ltr}
+.tb button{width:50px;height:50px;border-radius:50%;border:0;background:#0f3d33;display:grid;place-items:center;cursor:pointer;transition:.2s}.tb .off{opacity:.4}
+.dev{position:relative;width:260px;height:300px;margin:12px auto 0;--dv:#7fc880}
+.dev>svg{position:absolute;inset:0}
+.dev .lcd{position:absolute;left:56px;top:50px;width:148px;margin:0;border:4px solid var(--dv);border-radius:6px;background:#9a9a9a;color:#f3f3f3;font:700 40px monospace;letter-spacing:3px;padding:2px 0;text-align:center}
+.rb{position:absolute;top:126px;width:64px;border:0;background:none;color:#fff;font:13px Arial,sans-serif;text-align:center;cursor:pointer}
+.rb i{display:grid;place-items:center;width:36px;height:36px;margin:0 auto 2px;border:2px solid #ddd;border-radius:50%}
+#th{left:26px}#rs{right:26px}
+.dev .tap{position:absolute;left:80px;top:172px;width:100px;height:100px;margin:0;font:700 30px Arial,sans-serif}
+.sb{position:relative;display:flex;gap:14px;justify-content:center;margin-top:16px;direction:ltr}
+.sb button{flex:1;max-width:130px;height:48px;border:0;border-radius:24px;background:linear-gradient(#1c5c4b,#0f3d33);color:#fff;font:700 16px Arial,sans-serif;cursor:pointer;box-shadow:0 3px 6px #0005}
+.ak2{height:158px;padding:0}#shp{display:none;position:absolute;bottom:58px;left:50%;transform:translateX(-50%);width:max-content;background:#fff;border:3px solid #d9a441;border-radius:16px;padding:10px;grid-template-columns:repeat(4,1fr);gap:8px;box-shadow:0 6px 18px #0006;z-index:5}#shp.on{display:grid;animation:up .25s}nav button:first-child{margin-inline-start:auto}nav button:last-child{margin-inline-end:auto}
+footer{direction:ltr;margin-top:80px;padding:12px 12px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;user-select:none;font-family:"IBM Plex Sans Arabic",Cairo,Arial,sans-serif}
+.soc{display:flex;align-items:center;gap:12px}.soc a{--c:#5865F2;width:32px;height:32px;border-radius:50%;background:color-mix(in srgb,var(--tx) 7%,transparent);border:1px solid color-mix(in srgb,var(--tx) 14%,transparent);display:flex;align-items:center;justify-content:center;color:color-mix(in srgb,var(--tx) 70%,transparent);box-shadow:0 1px 2px #0003;transition:all .3s}
+.soc a:hover{color:var(--c);border-color:color-mix(in srgb,var(--c) 50%,transparent);background:color-mix(in srgb,var(--c) 10%,transparent);transform:scale(1.1)}.soc svg{width:16px;height:16px;fill:currentColor}
+footer p{margin:0;font-size:13px;color:color-mix(in srgb,var(--tx) 55%,transparent);letter-spacing:.05em}footer b{color:#d9ae5e;font-weight:600}@media(max-width:767px){footer p{font-size:12px}}
+::-webkit-scrollbar{width:12px;height:8px}::-webkit-scrollbar-track{background:#0b2a24}::-webkit-scrollbar-thumb{background:linear-gradient(#2a7d66,#14493c);border-radius:8px;border:2px solid #0b2a24}::-webkit-scrollbar-thumb:hover{background:#2f8f6f}::-webkit-scrollbar-corner{background:#0b2a24}
+@supports not selector(::-webkit-scrollbar){*{scrollbar-color:#1c5c4b #0b2a24;scrollbar-width:thin}}.grid{grid-auto-rows:66px}.grid div{display:flex;align-items:center;justify-content:center;padding:4px 6px;line-height:1.4}.arch2{height:560px}.sb{margin-top:22px}.sb button{max-width:150px;font:700 17px Cairo,sans-serif}.dev .tap{font:700 28px Cairo,sans-serif}
+</style></head><body><svg width="0" height="0" style="position:absolute"><defs><g id="ln"><path d="M30 0V20" stroke="#d9ae5e" stroke-width="2"/><path d="M18 30L24 18H36L42 30Z" fill="#d9ae5e"/><path d="M16 30Q8 60 20 90H40Q52 60 44 30Z" fill="#7a4a12" stroke="#d9ae5e" stroke-width="2"/><ellipse cx="30" cy="60" rx="10" ry="22" fill="#ffd987"/><path d="M20 90H40L36 100H24Z" fill="#d9ae5e"/><path d="M30 100V116" stroke="#d9ae5e" stroke-width="3"/></g></defs></svg>
+<header class="hero"><div class="stars" id="st"></div><svg class="moon" viewBox="0 0 100 100"><path d="M60 8A42 42 0 1 0 92 70A34 34 0 1 1 60 8Z" fill="#f6e7c1"/></svg><svg class="lan l1" viewBox="0 0 60 120"><use href="#ln"/></svg><svg class="lan l2" viewBox="0 0 60 120"><use href="#ln"/></svg><svg class="lan l3" viewBox="0 0 60 120"><use href="#ln"/></svg><h1>زاد المسلم</h1><p>طريقك للعلم والذكر والطمأنينة</p><svg class="mosque" viewBox="0 0 400 120" preserveAspectRatio="none"><path d="M0 120V100H40V30L46 6L52 30V100H80V80Q105 40 130 80V100H140V70Q200-10 260 70V100H270V80Q295 40 320 80V100H350V30L356 6L362 30V100H400V120Z"/></svg></header>
+<nav id="nv"></nav><main>
+<section id="home"><div class="fg" id="fg"><button data-t="quran"><i><svg width="56" height="56" viewBox="0 0 64 64"><path d="M32 20Q20 14 8 18V42Q20 38 32 44Z" fill="#f6e7c1" stroke="#d9ae5e" stroke-width="2"/><path d="M32 20Q44 14 56 18V42Q44 38 32 44Z" fill="#fff6dc" stroke="#d9ae5e" stroke-width="2"/><path d="M13 24Q21 22 28 25M13 29Q21 27 28 30M13 34Q21 32 28 35M36 25Q43 22 51 24M36 30Q43 27 51 29M36 35Q43 32 51 34" stroke="#2f8f6f" stroke-width="1.5" fill="none"/><path d="M16 58L32 44L48 58M20 50L32 44L44 50" stroke="#b8893a" stroke-width="3.5" fill="none" stroke-linecap="round"/></svg></i>القرآن الكريم</button><button data-t="adhkar"><i><svg width="56" height="56" viewBox="0 0 64 64"><path d="M6 30Q8 52 32 56Q56 52 58 30Q46 42 32 42Q18 42 6 30Z" fill="#d9ae5e" stroke="#b8893a" stroke-width="2"/><path d="M20 38L18 46M26 40L25 50M38 40L39 50M44 38L46 46" stroke="#b8893a" stroke-width="1.6"/><path d="M32 6L35 15L44 18L35 21L32 30L29 21L20 18L29 15Z" fill="#2f8f6f"/><path d="M14 14L19 19M50 14L45 19M10 26L17 26M54 26L47 26" stroke="#d9ae5e" stroke-width="2.5" stroke-linecap="round"/></svg></i>أذكار الصباح والمساء</button><button data-t="tasbeeh"><i><svg width="56" height="56" viewBox="0 0 64 64"><g stroke="#8a6420" stroke-width="1"><circle cx="32" cy="8" r="3.8" fill="#d9ae5e"/><circle cx="42.6" cy="11.4" r="3.8" fill="#2f8f6f"/><circle cx="49.1" cy="20.4" r="3.8" fill="#d9ae5e"/><circle cx="49.1" cy="31.6" r="3.8" fill="#2f8f6f"/><circle cx="42.6" cy="40.6" r="3.8" fill="#d9ae5e"/><circle cx="21.4" cy="40.6" r="3.8" fill="#2f8f6f"/><circle cx="14.9" cy="31.6" r="3.8" fill="#d9ae5e"/><circle cx="14.9" cy="20.4" r="3.8" fill="#2f8f6f"/><circle cx="21.4" cy="11.4" r="3.8" fill="#d9ae5e"/><circle cx="32" cy="47" r="4.6" fill="#2f8f6f"/></g><path d="M32 51L27 62H37Z" fill="#d9ae5e" stroke="#8a6420"/></svg></i>التسبيح</button><button data-t="prayer"><i><svg width="56" height="56" viewBox="0 0 64 64"><path d="M18 40Q32 6 46 40Z" fill="#d9ae5e"/><path d="M32 8V3M29 5H35" stroke="#d9ae5e" stroke-width="2"/><rect x="14" y="40" width="36" height="18" fill="#2f8f6f"/><path d="M27 58V49Q32 42 37 49V58Z" fill="#f6e7c1"/><rect x="5" y="24" width="7" height="34" fill="#2f8f6f"/><path d="M4 24L8.5 10L13 24Z" fill="#d9ae5e"/><rect x="52" y="24" width="7" height="34" fill="#2f8f6f"/><path d="M51 24L55.5 10L60 24Z" fill="#d9ae5e"/></svg></i>مواقيت الصلاة</button><button data-t="events"><i><svg width="56" height="56" viewBox="0 0 100 100"><path d="M60 8A42 42 0 1 0 92 70A34 34 0 1 1 60 8Z" fill="#d9ae5e" stroke="#b8893a" stroke-width="2"/><path d="M74 14L77 24L87 27L77 30L74 40L71 30L61 27L71 24Z" fill="#2f8f6f"/></svg></i>المناسبات</button><button data-t="names"><i><svg width="56" height="56" viewBox="0 0 64 64"><rect x="13" y="13" width="38" height="38" fill="#d9ae5e" stroke="#b8893a" stroke-width="2"/><rect x="13" y="13" width="38" height="38" fill="#d9ae5e" stroke="#b8893a" stroke-width="2" transform="rotate(45 32 32)"/><circle cx="32" cy="32" r="12" fill="#2f8f6f" stroke="#f6e7c1" stroke-width="2"/><circle cx="32" cy="32" r="4" fill="#f6e7c1"/></svg></i>أسماء الله الحسنى</button></div><div class="c" style="text-align:center"><div class="ar">﴿ خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ ﴾</div><span class="src">رواه البخاري</span></div><div class="c" id="hd" style="text-align:center"></div><div class="c" id="hp"></div></section>
+<section id="quran"><div class="c">لم يُضَف نص المصحف كاملًا في هذه النسخة بسبب حجمه الكبير (نحو ٦٠٠ ألف حرف)، وسيُضاف في خطوة منفصلة بدل نسخه من الذاكرة حتى لا يحدث خطأ في الآيات.</div></section>
+<section id="adhkar"><h2>أذكار الصباح والمساء</h2><div class="c ar" style="text-align:center">﴿ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ الْغُرُوبِ ﴾</div><div id="ad"></div></section>
+<section id="tasbeeh"><div class="chips" id="ch"></div><div class="tz"><svg class="lan t1" viewBox="0 0 60 120"><use href="#ln"/></svg><svg class="lan t2" viewBox="0 0 60 120"><use href="#ln"/></svg><div class="arch2"><svg class="ar-bg" viewBox="0 0 300 560" preserveAspectRatio="none"><path d="M12 548V230Q12 200 40 176Q130 110 150 8Q170 110 260 176Q288 200 288 230V548Q288 556 280 556H20Q12 556 12 548Z" fill="#fff" stroke="#d9a441" stroke-width="7"/></svg><div class="ak2"></div><div class="dev" id="dv"><svg viewBox="0 0 260 300"><path d="M130 8C200 8 245 40 245 110C245 170 215 190 215 230C215 275 180 292 130 292C80 292 45 275 45 230C45 190 15 170 15 110C15 40 60 8 130 8Z" fill="#0b0b0b" style="fill:var(--df,#0f1a14);stroke:var(--dv);stroke-width:14"/></svg><div class="lcd" id="n">0000</div><button class="rb" id="rs"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M20 12a8 8 0 1 1-3-6.2M20 4v5h-5"/></svg></i>Reset</button><button class="tap" id="tp">اضغط</button></div><div class="sb"><button id="th">أشكال</button><div id="shp"></div></div></div></div><div class="c" style="text-align:center">أضف ذكرك الخاص:<br><input id="ni" placeholder="اكتب الذكر"> <button class="btn" id="pl">+</button></div></section>
+<section id="prayer"><div class="c">المحافظة: <select id="gv"></select></div><div class="c"><div id="dt" style="text-align:center;margin-bottom:8px"></div><div class="pt" id="pp"></div></div><div class="src" style="text-align:center">الحساب بطريقة الهيئة المصرية العامة للمساحة، وتقريبي (قد يختلف بدقائق).</div></section>
+<section id="events"><div class="c"><table id="ev"></table></div></section>
+<section id="names"><div class="grid" id="nm"></div></section>
+</main><footer><div class="soc"><a href="https://instagram.com/j1slc" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="--c:#E4405F"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a><a href="https://www.youtube.com/@j1slc" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style="--c:#FF0000"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a><a href="https://facebook.com/j1slc" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style="--c:#1877F2"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="https://discord.gg/Yeb9bRX7Qf" target="_blank" rel="noopener noreferrer" aria-label="Discord" style="--c:#5865F2"><svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a></div><p>Copyrights © Zad | 2026. All rights reserved. made by <b>Jio</b></p></footer><script>
+const $=i=>document.getElementById(i),S=(k,v)=>{try{if(v===undefined)return JSON.parse(localStorage.getItem(k));localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}};
+const tabs=[["home","الرئيسية"],["quran","القرآن الكريم"],["adhkar","أذكار الصباح والمساء"],["tasbeeh","التسبيح"],["prayer","مواقيت الصلاة"],["events","المناسبات"],["names","أسماء الله الحسنى"]];
+$("nv").innerHTML=tabs.map(t=>`<button data-t="${t[0]}">${t[1]}</button>`).join("");
+function go(t){document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id==t));document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.t==t));scrollTo(0,0)}
+$("nv").onclick=e=>e.target.dataset.t&&go(e.target.dataset.t);go("home");
+const A=[["أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ — آية الكرسي: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ","",""],
+["حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ","سبع مرات — كفاه الله ما أهمه من أمر الدنيا والآخرة","أبو داود"],
+["أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ","ثلاث مرات صباحًا ومساءً — لم يضره شيء","الترمذي"],
+["اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ","صباحًا (وفي المساء: وإليك المصير)","الترمذي"],
+["اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي، اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي","صباحًا ومساءً","أبو داود"],
+["اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ","صباحًا ومساءً","أبو داود"],
+["لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ","ثلاث مرات","الترمذي"],
+["رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ ﷺ نَبِيًّا","ثلاث مرات — كان حقًا على الله أن يرضيه","النسائي"],
+["لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ","مائة مرة — عدل عشر رقاب ومائة حسنة وحرز من الشيطان","البخاري ومسلم"],
+["سُبْحَانَ اللَّهِ وَبِحَمْدِهِ","مائة مرة — حُطّت خطاياه وإن كانت مثل زبد البحر","مسلم"],
+["اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ","عشر مرات","البخاري ومسلم"],
+["اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلًا مُتَقَبَّلًا","بعد سلام صلاة الفجر","ابن ماجه"]];
+$("ad").innerHTML=A.map(a=>`<div class="c"><div class="ar">${a[0]}</div><div>${a[1]}</div><div class="src">${a[2]}</div></div>`).join("");
+// tasbeeh
+let cnt=0,Z=S("z")||[],cur="سبحان الله";
+function chips(){const b=["لا حول ولا قوة إلا بالله","أستغفر الله","سبحان الله","الحمد لله"].concat(Z);$("ch").innerHTML=b.map(z=>`<button class="${z==cur?"":""}" data-z="${z}" style="${z==cur?"background:var(--gold)":""}">${z}</button>`).join("")}
+function show(){$("n").textContent=String(cnt).padStart(4,"0")}
+$("ch").onclick=e=>{if(e.target.dataset.z){cur=e.target.dataset.z;cnt=S("c:"+cur)||0;chips();show()}};
+$("tp").onclick=()=>{$("n").animate([{transform:"scale(1.15)"},{transform:"scale(1)"}],150);cnt++;S("c:"+cur,cnt);show();navigator.vibrate&&navigator.vibrate(15)};
+$("rs").onclick=()=>{cnt=0;S("c:"+cur,0);show()};
+$("pl").onclick=()=>{const v=$("ni").value.trim();if(v&&!Z.includes(v)){Z.push(v);S("z",Z);$("ni").value="";chips()}};
+chips();show();
+// names
+$("nm").innerHTML="الرَّحْمَنُ،الرَّحِيمُ،الْمَلِكُ،الْقُدُّوسُ،السَّلَامُ،الْمُؤْمِنُ،الْمُهَيْمِنُ،الْعَزِيزُ،الْجَبَّارُ،الْمُتَكَبِّرُ،الْخَالِقُ،الْبَارِئُ،الْمُصَوِّرُ،الْغَفَّارُ،الْقَهَّارُ،الْوَهَّابُ،الرَّزَّاقُ،الْفَتَّاحُ،الْعَلِيمُ،الْقَابِضُ،الْبَاسِطُ،الْخَافِضُ،الرَّافِعُ،الْمُعِزُّ،الْمُذِلُّ،السَّمِيعُ،الْبَصِيرُ،الْحَكَمُ،الْعَدْلُ،اللَّطِيفُ،الْخَبِيرُ،الْحَلِيمُ،الْعَظِيمُ،الْغَفُورُ،الشَّكُورُ،الْعَلِيُّ،الْكَبِيرُ،الْحَفِيظُ،الْمُقِيتُ،الْحَسِيبُ،الْجَلِيلُ،الْكَرِيمُ،الرَّقِيبُ،الْمُجِيبُ،الْوَاسِعُ،الْحَكِيمُ،الْوَدُودُ،الْمَجِيدُ،الْبَاعِثُ،الشَّهِيدُ،الْحَقُّ،الْوَكِيلُ،الْقَوِيُّ،الْمَتِينُ،الْوَلِيُّ،الْحَمِيدُ،الْمُحْصِي،الْمُبْدِئُ،الْمُعِيدُ،الْمُحْيِي،الْمُمِيتُ،الْحَيُّ،الْقَيُّومُ،الْوَاجِدُ،الْمَاجِدُ،الْوَاحِدُ،الصَّمَدُ،الْقَادِرُ،الْمُقْتَدِرُ،الْمُقَدِّمُ،الْمُؤَخِّرُ،الْأَوَّلُ،الْآخِرُ،الظَّاهِرُ،الْبَاطِنُ،الْوَالِي،الْمُتَعَالِي،الْبَرُّ،التَّوَّابُ،الْمُنْتَقِمُ،الْعَفُوُّ،الرَّءُوفُ،مَالِكُ الْمُلْكِ،ذُو الْجَلَالِ وَالْإِكْرَامِ،الْمُقْسِطُ،الْجَامِعُ،الْغَنِيُّ،الْمُغْنِي،الْمَانِعُ،الضَّارُّ،النَّافِعُ،النُّورُ،الْهَادِي،الْبَدِيعُ،الْبَاقِي،الْوَارِثُ،الرَّشِيدُ،الصَّبُورُ".split("،").map(x=>`<div>${x}</div>`).join("");
+// events
+$("ev").innerHTML=[["رأس السنة الهجرية","1 محرم"],["يوم عاشوراء","10 محرم"],["المولد النبوي الشريف","12 ربيع الأول (على المشهور)"],["الإسراء والمعراج","27 رجب (على المشهور)"],["ليلة النصف من شعبان","15 شعبان"],["بداية شهر رمضان","1 رمضان"],["ليلة القدر","إحدى الليالي الوترية من العشر الأواخر من رمضان"],["عيد الفطر المبارك","1 شوال"],["يوم عرفة","9 ذو الحجة"],["عيد الأضحى المبارك","10 ذو الحجة"],["أيام التشريق","11 و12 و13 ذو الحجة"]].map(r=>`<tr><td><b>${r[0]}</b></td><td>${r[1]}</td></tr>`).join("");
+// prayer
+const G={"القاهرة":[30.04,31.24],"الجيزة":[30.01,31.21],"الإسكندرية":[31.2,29.92],"القليوبية":[30.46,31.18],"الشرقية":[30.59,31.5],"الدقهلية":[31.04,31.38],"الغربية":[30.79,31],"المنوفية":[30.56,31.01],"البحيرة":[31.03,30.47],"كفر الشيخ":[31.11,30.94],"دمياط":[31.42,31.81],"بورسعيد":[31.27,32.3],"الإسماعيلية":[30.59,32.27],"السويس":[29.97,32.55],"شمال سيناء":[31.13,33.8],"جنوب سيناء":[28.24,33.62],"بني سويف":[29.07,31.1],"الفيوم":[29.31,30.84],"المنيا":[28.11,30.75],"أسيوط":[27.18,31.18],"سوهاج":[26.56,31.7],"قنا":[26.16,32.72],"الأقصر":[25.7,32.64],"أسوان":[24.09,32.9],"البحر الأحمر":[27.26,33.81],"الوادي الجديد":[25.45,30.55],"مطروح":[31.35,27.24]};
+$("gv").innerHTML=Object.keys(G).map(k=>`<option>${k}</option>`).join("");$("gv").value=S("gv")||"القاهرة";
+const R=Math.PI/180,sn=x=>Math.sin(x*R),cs=x=>Math.cos(x*R);
+function times(lat,lng,dt){const y=dt.getFullYear(),m=dt.getMonth(),d=dt.getDate();
+const tz=+new Intl.DateTimeFormat("en",{timeZone:"Africa/Cairo",hour:"numeric",hour12:false}).format(new Date(Date.UTC(y,m,d,12)))-12;
+const D0=Date.UTC(y,m,d)/864e5+2440587.5-2451545-lng/360,g=(357.529+.98560028*D0)%360,q=(280.459+.98564736*D0)%360,L=q+1.915*sn(g)+.02*sn(2*g),e=23.439-4e-7*D0;
+let ra=Math.atan2(cs(e)*sn(L),cs(L))/R/15;ra=((ra%24)+24)%24;const dc=Math.asin(sn(e)*sn(L))/R,eq=q/15-ra,E=((eq+12)%24+24)%24-12;
+const dh=12+tz-lng/15-E,t=a=>Math.acos((-sn(a)-sn(dc)*sn(lat))/(cs(dc)*cs(lat)))/R/15;
+const ac=Math.atan(1/(1+Math.tan(Math.abs(lat-dc)*R)))/R,as=Math.acos((sn(ac)-sn(dc)*sn(lat))/(cs(dc)*cs(lat)))/R/15;
+return[["الفجر",dh-t(19.5)],["الشروق",dh-t(.833)],["الظهر",dh+.0167],["العصر",dh+as],["المغرب",dh+t(.833)],["العشاء",dh+t(17.5)]]}
+const f=h=>{h=(h+24)%24;let H=Math.floor(h),M=Math.round((h-H)*60);if(M==60){H++;M=0}return String(H%24).padStart(2,"0")+":"+String(M).padStart(2,"0")};
+function pr(){const[la,ln]=G[$("gv").value];S("gv",$("gv").value);const n=new Date(),T=times(la,ln,n);
+$("pp").innerHTML=T.map(x=>`<div>${x[0]}<b>${f(x[1])}</b></div>`).join("");
+$("dt").textContent=n.toLocaleDateString("ar-EG",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+$("hd").textContent="التاريخ الهجري: "+n.toLocaleDateString("ar-EG-u-ca-islamic-umalqura",{day:"numeric",month:"long",year:"numeric"});
+$("hp").innerHTML="<b>مواقيت الصلاة — "+$("gv").value+"</b><div class='pt' style='margin-top:8px'>"+T.map(x=>`<div>${x[0]}<b>${f(x[1])}</b></div>`).join("")+"</div>"}
+$("gv").onchange=pr;pr();
+$("st").innerHTML=Array.from({length:45},()=>`<span style="top:${Math.random()*70}%;left:${Math.random()*100}%;animation-delay:${Math.random()*3}s"></span>`).join("");
+$("fg").onclick=e=>{const b=e.target.closest("[data-t]");b&&go(b.dataset.t)};
+function chips(){const BZ=["لا حول ولا قوة إلا بالله","أستغفر الله","سبحان الله","الحمد لله"];$("ch").innerHTML=BZ.concat(Z).map(z=>`<button data-z="${z}" style="${z==cur?"background:var(--gold)":""}">${z}${Z.includes(z)?`<b data-x="${z}" style="margin-inline-start:8px"> ✕</b>`:""}</button>`).join("");}
+$("ch").onclick=e=>{const x=e.target.dataset.x;if(x){Z=Z.filter(v=>v!=x);S("z",Z);try{localStorage.removeItem("c:"+x)}catch(_){}if(cur==x){cur="سبحان الله";cnt=S("c:"+cur)||0;show()}chips();return}const z=e.target.dataset.z;if(z){cur=z;cnt=S("c:"+cur)||0;chips();show()}};
+let snd=0,vib=1,lk=0,aud,wl;
+function beep(){try{aud=aud||new AudioContext();const o=aud.createOscillator(),g=aud.createGain();o.frequency.value=700;g.gain.value=.05;o.connect(g);g.connect(aud.destination);o.start();o.stop(aud.currentTime+.04)}catch(_){}}
+$("tp").onclick=()=>{cnt++;S("c:"+cur,cnt);show();if(vib&&navigator.vibrate)navigator.vibrate(15);if(snd)beep()};
+$("rs").onclick=()=>{if(lk)return;cnt=0;S("c:"+cur,0);show()};
+const tg=(id,f)=>$(id).onclick=()=>{$(id).classList.toggle("off");f($(id).classList.contains("off"))};
+
+
+const TH=[["#0f1a14","#7fc880"],["#2a0b0b","#e5484d"],["#2b2207","#f5c542"],["#1c2128","#f5f5f5"],["#0b1d33","#4da3ff"],["#24103a","#b887ff"],["#2d1706","#ff9b3d"],["#33101f","#ff7eb6"]];let ti=S("ti")||0;function ap(){const t=TH[ti]||TH[0];$("dv").style.setProperty("--dv",t[1]);$("dv").style.setProperty("--df",t[0])}
+function sw(){$("shp").innerHTML=TH.map((t,i)=>`<div data-i="${i}" style="cursor:pointer;border-radius:10px;padding:3px;${i==ti?"outline:3px solid #d9a441":""}"><svg width="46" height="54" viewBox="0 0 260 300"><path d="M130 8C200 8 245 40 245 110C245 170 215 190 215 230C215 275 180 292 130 292C80 292 45 275 45 230C45 190 15 170 15 110C15 40 60 8 130 8Z" fill="${t[0]}" stroke="${t[1]}" stroke-width="24"/><rect x="56" y="55" width="148" height="52" fill="#9a9a9a"/><circle cx="130" cy="220" r="42" fill="#fff"/></svg></div>`).join("")}
+$("th").onclick=e=>{e.stopPropagation();sw();$("shp").classList.toggle("on")};
+$("shp").onclick=e=>{e.stopPropagation();const d=e.target.closest("[data-i]");if(d){ti=+d.dataset.i;S("ti",ti);ap();sw();$("shp").classList.remove("on")}};
+document.addEventListener("click",()=>$("shp").classList.remove("on"));ap();
+
+
+
+
+cnt=S("c:"+cur)||0;chips();show();
+</script></body></html>
